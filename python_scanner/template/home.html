@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+    <script type=text/javascript> $(function() { $("#mybutton").click(function (event) { $.getJSON('/read', { },
+    function(data) { }); return false; }); }); </script> -->
+    <form action="/get/" method="post">
+        <button name="forwardBtns" type="submit">get</button>
+    </form>
+
+    <h2>{{value}}</h2>
+    <form action="/read/" method="post">
+        <button name="forwardBtn" type="submit">read</button>
+    </form>
+
+</body>
+
+</html>

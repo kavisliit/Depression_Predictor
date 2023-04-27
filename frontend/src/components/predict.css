@@ -1,0 +1,43 @@
+.form-group {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+.forms {
+    background-color: #cccccc96;
+    padding: 15px;
+}
+
+.title {
+    font-family: 'Carter One', cursive;
+    color: white;
+}
+
+.imgs {
+    width: 100px;
+    height: 100px;
+}
+
+.good {
+
+    color: rgb(96, 170, 96);
+}
+
+.sad {
+
+    color: rgb(199, 124, 124);
+}
